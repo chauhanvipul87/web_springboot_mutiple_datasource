@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "datasource.gier",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.iana.config.IANAAPIApplication",
+      "sourceMethod": "getGierDataSource()"
+    },
+    {
+      "name": "datasource.primary",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.iana.config.IANAAPIApplication",
+      "sourceMethod": "getEquipReturnDataSource()"
+    },
+    {
+      "name": "datasource.uiia",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.iana.config.IANAAPIApplication",
+      "sourceMethod": "getUIIADataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
